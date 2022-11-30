@@ -5,6 +5,10 @@
 }
 #bottom{
     margin-left: 20px;
+    display: inline-block;
+}
+#right-object{
+  display: inline-block;
 }
 hr{
     height: 2px;
