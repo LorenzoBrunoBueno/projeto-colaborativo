@@ -1,0 +1,89 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(0,0,0);
+}
+main{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.7553396358543417) 46%, rgba(0,0,0,0.7609418767507002) 70%, rgba(31,29,29,1) 90%);
+    background-image: url(../assets/img/foto.jpg);
+
+}
+.flix{
+    color: rgb(75, 6, 6);
+}
+h1{
+    color: blanchedalmond;
+}
+.logo img{
+    width: 150px;
+    height: 120px;
+    margin-left: -35px;
+    margin-top: -25px;
+}
+header{
+    background: rgb(164,39,39);
+    background: radial-gradient(circle, rgba(164,39,39,0.7553396358543417) 48%, rgba(142,20,20,1) 70%, rgba(31,29,29,1) 100%);
+    height: 55px;
+    padding: 25px;
+
+}
+nav{
+    float: right;
+}
+.menu-desktop ul{
+    position: relative;
+    top: -3px;
+}
+.menu-desktop li{
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px 13.5px 20px;
+}
+.logoCentro img{
+    padding-left: 650px;
+    padding-top: 050px;
+}
+.logo button{
+    float: right;
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+.start button{
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    width: 100px;
+    height: 50px;
+    border: none;
+    float: right;
+    margin-right: 900px;
+    margin-top: 100px;
+}
+.start button:hover{
+    width: 110px;
+    height: 60px;
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    transition: 0.6s;
+    margin-right: 890px;
+}
+.logo button:hover{
+    width: 105px;
+    height: 55px;
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    transition: 0.6s;
+    margin-right: -10px;;
+}
+
