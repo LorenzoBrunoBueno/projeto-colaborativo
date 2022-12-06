@@ -4,15 +4,16 @@
     background-color: rgb(182, 182, 182);
 }
 #bottom{
-
+  width: 100%;
     margin-left: 20px;
-    display: inline-block;
+    display: flex;
 }
 #right-object{
   display: inline-block;
-  width: 200px;
- margin-left: 200%;
+  width: 50%;
+  margin-left: 60%;
 }
+
 hr{
     height: 2px;
     background-color: black;
@@ -45,39 +46,46 @@ hr{
   }
 #img-lupa{
     display: inline-block;
-   
+   margin: auto;
 }
-#titulo{
-  display: inline-block;
-}
+
 #texto-direita{
     display: inline-block;
-    font-size: 115%;
+    font-size: 145%;
     margin-left: 3%;
+}
+#titulo{
+  width: 49%;
 }
 
 #palavra-chave{
   width: 50%;
   border: solid;
+  display: flex;
 }
 #img-lupa-pc{
-  display: inline-block;
+  display: block;
   width: 20px;
   height: 20px;
+  margin: auto;
 }
 #texto-pc{
-  display: inline-block;
-  font-size: 110%;
+  
+  font-size: 125%;
+  margin-right: 70%;
+  margin-bottom: 1%;
+  margin-top: 0.2cm;
 }
 #informacao{
   display: inline-block;
   width: 570px;
   height: 60px;
-  margin-top: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 #candidatar-se{
  display: inline-block;
- margin-left: 5%;
+ margin-left: 20%;
 
 }
 #jobs{
