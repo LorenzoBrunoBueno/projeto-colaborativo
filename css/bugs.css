@@ -68,7 +68,6 @@ hr{
     border-color:rgb(164, 39, 39);
     width: 60%;
     border-radius: 5%;
-    text-align: center;
 }
 #left{
     width: 50%;
@@ -132,6 +131,7 @@ h1{
 #add{
     margin-top: 10%;
 }
+<<<<<<< HEAD
 #btnEnviar{
   background-color: rgb(164, 39, 39);
   border: solid;
@@ -152,3 +152,5 @@ p{
 ba{
  color: white;
 }
+=======
+>>>>>>> parent of 40da247 (atualizando tudo)
