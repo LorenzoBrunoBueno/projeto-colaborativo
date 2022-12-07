@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>FilmeFlix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=Principal.html>
+                    <img src="assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="Principal.html">Inicio</a></li>
+                    <li><a href="jobs.html">Trabalho</a></li>
+                    <li><a href="bugs.html">Reporte Bugs</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <form>
+            <h1>Cadastre O Filme</h1>
+            <fieldset>
+                <table>
+                    <tr>
+                        <th>
+                            <label for="">Titulo:</label>
+                        </th>
+                        <th>
+                            <input type="text" id="inTitulo">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="">Produtora:</label>
+                        </th>
+                        <th>
+                            <input type="text" id="inProdutora">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="">Duração:</label>
+                        </th>
+                        <th>
+                            <input type="text" id="inTempo">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="">Faixa Etária:</label>
+                        </th>
+                        <th>
+                            <input type="text" id="inIdade">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="">Elenco:</label>
+                        </th>
+                        <th>
+                            <textarea name="" id="inElenco" cols="50" rows="10">Insira um em cada linha</textarea>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="">Sinopse:</label>
+                        </th>
+                        <th>
+                            <textarea name="" id="inSinopse" cols="50" rows="10"></textarea>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="" class="trocas">Deseja destacar o Filme?</label>
+                        </th>
+                        <th>
+                            <input type="checkbox" name="" id="">
+                        </th>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <input type="button" value="Enviar" id="btEnviar" class="btn">
+        <input type="button" value="Limpar" id="btLimpar" class="btn2">
+    </main>
+</body>
+
+</html>
