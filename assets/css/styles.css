@@ -1,0 +1,210 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1980px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.7553396358543417) 46%, rgba(0, 0, 0, 0.7609418767507002) 70%, rgba(31, 29, 29, 1) 90%);
+}
+
+header {
+    padding: 20px 0;
+    background: rgb(164, 39, 39);
+    background: radial-gradient(circle, rgba(164, 39, 39, 0.7553396358543417) 48%, rgba(142, 20, 20, 1) 70%, rgba(31, 29, 29, 1) 100%);
+    height: 100px;
+}
+
+.logo img {
+    float: left;
+    height: 120px;
+    width: 150px;
+    margin: -25px 0 0 -35px;
+}
+
+nav.menu-desktop {
+    float: right;
+}
+
+nav.menu-desktop ul {
+    position: relative;
+    top: 8px
+}
+
+nav.menu-desktop li {
+    padding: 12px 6px;
+    display: inline-block;
+}
+
+nav.menu-desktop a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 14px 16px;
+    background: rgb(133, 2, 2);
+    background: linear-gradient(149deg, rgba(133, 2, 2, 1) 0%, rgba(184, 12, 12, 1) 92%, rgba(230, 116, 116, 1) 100%);
+    border-radius: 3px;
+    border: black solid 1px;
+}
+
+form {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 120px 630px 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+@keyframes changeColor {
+    0% {
+        color: yellow;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: yellow;
+    }
+}
+
+.trocas {
+    animation: changeColor 4s infinite;
+}
+
+input {
+    border-radius: 10px;
+    height: 23px;
+    width: 350px;
+}
+.btn:hover{
+    width: 110px;
+    height: 60px;
+    background: rgb(5, 71, 0);
+    background: linear-gradient(163deg, rgb(23, 124, 16) 0%, rgb(43, 206, 31) 46%, rgbrgb(49, 241, 35)%, rgba(229, 252, 228, 1) 100%);
+    transition: 0.6s;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    border-radius: 10px;
+}
+.btn2:hover{
+    width: 110px;
+    height: 60px;
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    transition: 0.6s;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    border-radius: 10px;
+}
+
+fieldset {
+    background: rgb(84, 2, 2);
+    background: linear-gradient(163deg, rgba(84, 2, 2, 1) 0%, rgba(172, 0, 0, 1) 40%, rgba(222, 0, 0, 1) 84%, rgba(230, 116, 116, 1) 100%);
+}
+
+.btn {
+    margin-right: 5px;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    background: rgb(5, 71, 0);
+    background: linear-gradient(163deg, rgba(5, 71, 0, 1) 0%, rgba(10, 158, 0, 1) 46%, rgba(14, 222, 0, 1) 80%, rgba(229, 252, 228, 1) 100%);
+}
+
+.btn2 {
+    margin-left: 5px;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    background: rgb(84, 2, 2);
+    background: linear-gradient(163deg, rgba(84, 2, 2, 1) 0%, rgba(172, 0, 0, 1) 40%, rgba(222, 0, 0, 1) 84%, rgba(230, 116, 116, 1) 100%);
+}
+h1.titulo{
+    float: left;
+    color: white;
+    font-size: 33px;
+    margin: 80px 0 0 0;
+    text-shadow: 1px;
+}
+h1.sinopse{
+    margin-top: 50px;
+    margin-left: -750px;
+    color: rgb(84, 2, 2);;
+    font-size: 33px;
+    
+}
+p.sinopse2{
+    margin: 30px 0 15px 0 ;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+
+}
+.direita{
+    float: right;
+    margin: -475px 30px 0 1000px;
+}
+.esquerda{
+    margin-top: 80px;
+    margin-left: -250px;
+    float: left;
+    width: 700px;
+    height: 500px;
+}
+iframe{
+    margin-top: 75px;
+    width: 800px;
+    height: 500px;
+}
+.Sesquerda{
+    margin-top: 80px;
+    margin-left: -150px;
+    float: left;
+    width: 700px;
+    height: 500px;
+}
+.Cesquerda{
+    margin-top: 80px;
+    margin-left: -450px;
+    float: left;
+    width: 700px;
+    height: 500px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 700px;
+    display: inline-block;
+}
+footer button{
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 80px;
+    text-align: center;
+    color: aliceblue;
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    border-color: antiquewhite;
+}

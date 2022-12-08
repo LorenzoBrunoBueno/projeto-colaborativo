@@ -2,14 +2,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1980px;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 body{
+    
     background: radial-gradient(circle, rgba(0,0,0,0.7553396358543417) 46%, rgba(0,0,0,0.7609418767507002) 70%, rgba(31,29,29,1) 90%);
 }
 main{
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,0.7553396358543417) 46%, rgba(0,0,0,0.7609418767507002) 70%, rgba(31,29,29,1) 90%);
     background-image: url(../img/foto.jpg);
+    height: 550px;
 
 }
 .flix{
@@ -17,8 +25,11 @@ main{
 }
 h1{
     color: blanchedalmond;
+    margin-top: 50px;
+    margin-left: 70px;
 }
 .logo img{
+    float:left;
     width: 150px;
     height: 120px;
     margin-left: -35px;
@@ -27,32 +38,14 @@ h1{
 header{
     background: rgb(164,39,39);
     background: radial-gradient(circle, rgba(164,39,39,0.7553396358543417) 48%, rgba(142,20,20,1) 70%, rgba(31,29,29,1) 100%);
-    height: 55px;
-    padding:25px;
+    height: 100px;
+    padding:20px 0;
 
-}
-nav{
-    float: right;
-}
-.menu-desktop ul{
-    position: relative;
-    top: -3px;
-}
-.menu-desktop li{
-    display: inline-block;
-    margin-top: 8px;
-    margin-right: 20px;
-    font-size: 25px;
-}
-
-.menu-desktop a{
-    text-decoration: none;
-    color: black;
-    padding: 0px 20px 13.5px 20px;
 }
 .logoCentro img{
-    padding-left: 650px;
+   display: flex;
     padding-top: 050px;
+    padding-right: 220px;
 }
 .logo button{
     float: right;
@@ -69,8 +62,10 @@ nav{
     height: 50px;
     border: none;
     float: right;
-    margin-right: 900px;
+    margin-right: 860px;
     margin-top: 100px;
+    color: white;
+    border: 2px solid black;
 }
 .start button:hover{
     width: 110px;
@@ -78,7 +73,8 @@ nav{
     background: rgb(133,2,2);
     background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
     transition: 0.6s;
-    margin-right: 890px;
+    margin-right: 850px;
+    border-radius: 10px;
 }
 .logo button:hover{
     width: 105px;
@@ -91,11 +87,11 @@ nav{
 table th{
     color: white;
     border: 1px white solid;
-    width: 550px;
+    width: 525px;
 }
 table{
     margin-top: 10px;
-  
+    margin-left: 20px;
     font-size: 20px;
     display: inline-block;
 }
@@ -137,9 +133,68 @@ p{
     width: 90px;
     height: 30px;
     border: none;
-
     margin-left: 10px;
     margin-top: 10px;
+}
+.filmes{
+    margin-top: 100px;
+    width: 325px;
+    height: 300px;
+    border: 5px solid goldenrod;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.filmes:hover{
+    width: 335px;
+    height: 310px;
+}
+.filmes img:hover{
+    width: 325px;
+    height: 300px;
+}
+.filmes img{
+    height: 290px;
+    width: 315px;
+}
+.outros{
+    font-size: 15px;
+    margin-top: 550px;
+    
+}
+.filmes2{
+    margin-top: 100px;
+    width: 325px;
+    height: 300px;
+    border: 5px solid;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.filmes2 img{
+    height: 290px;
+    width: 315px;
+}
+footer{
+    margin-top: 400px;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    display: inline-block;
+
+}
+footer button{
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 80px;
+    text-align: center;
+    color: aliceblue;
+    background: rgb(133,2,2);
+    background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+    border-color: antiquewhite;
 }
 
 
