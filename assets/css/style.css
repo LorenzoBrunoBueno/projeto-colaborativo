@@ -1,0 +1,163 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: radial-gradient(circle, rgba(0,0,0,0.7553396358543417) 46%, rgba(0,0,0,0.7609418767507002) 70%, rgba(31,29,29,1) 90%);
+color: white;
+}
+header{
+  background: radial-gradient(circle, rgba(164,39,39,0.7553396358543417) 48%, rgba(142,20,20,1) 70%, rgba(31,29,29,1) 100%);
+  padding: 20px 0 0px 0;
+}
+#top{
+    width: 100%;
+    height: 50px;
+   
+    background: radial-gradient(circle, rgba(164,39,39,0.7553396358543417) 48%, rgba(142,20,20,1) 70%, rgba(31,29,29,1) 100%);
+}
+#bottom{
+  width: 100%;
+    margin-left: 20px;
+    display: flex;
+}
+#right-object{
+  display: inline-block;
+  width: 50%;
+  margin-left: 60%;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+.circle1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(164, 39, 39);
+    border-radius: 50%;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    opacity: 0.6;
+  }
+  .circle2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(164, 39, 39);
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.6;
+  }
+  .circle3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(164, 39, 39);
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.6;
+  }
+  
+#img-lupa{
+    display: inline-block;
+   margin: auto;
+}
+
+#texto-direita{
+    display: inline-block;
+    font-size: 145%;
+    margin-left: 3%;
+}
+#titulo{
+  width: 49%;
+}
+
+#palavra-chave{
+  width: 50%;
+  border: solid;
+  display: flex;
+}
+#img-lupa-pc{
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+#texto-pc{
+  
+  font-size: 125%;
+  margin-right: 70%;
+  margin-bottom: 1%;
+  margin-top: 0.2cm;
+}
+#informacao{
+  display: inline-block;
+  width: 570px;
+  height: 60px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#candidatar-se{
+ display: inline-block;
+ margin-left: 20%;
+
+}
+#jobs{
+  border: solid;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 3%;
+  font-size: 120%;
+}
+#info-job{
+margin-left: 5%;
+}
+#job{
+  margin-left: 3%;
+}
+hr{
+  width:98%;
+}
+svg{
+  width: 20px;
+  height: 20px;
+}
+h1{
+  
+  text-shadow: 1px 1px 2px rgb(164, 39, 39);
+}
+#bottom img{
+    float:left;
+    width: 150px;
+    height: 120px;
+    margin-left: -19px;
+    margin-top: -25px;
+}
+footer{
+  margin-top: 400px;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  display: inline-block;
+
+}
+footer button{
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 80px;
+  text-align: center;
+  color: aliceblue;
+  background: rgb(133,2,2);
+  background: linear-gradient(149deg, rgba(133,2,2,1) 0%, rgba(184,12,12,1) 92%, rgba(230,116,116,1) 100%);
+  border-color: antiquewhite;
+}
+footer p{
+  font-size: 30px;
+}
+
+
